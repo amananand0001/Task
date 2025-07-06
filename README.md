@@ -1,43 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Project Name</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 20px; }
+    h1, h2, h3 { color: #333; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+    code { font-family: Consolas, monospace; }
+    img { max-width: 300px; height: auto; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h2>🚀 Getting Started</h2>
+  <p>Follow these instructions to get the project up and running on your local machine.</p>
 
-🚀 Getting Started
+  <h3>1. Clone the Repository</h3>
+  <pre><code>git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name</code></pre>
 
-Follow these instructions to get the project up and running on your local machine.
+  <h3>2. Install Dependencies</h3>
+  <p>This command will install all the necessary project dependencies listed in <code>package.json</code>.</p>
+  <pre><code>npm install</code></pre>
 
-1. Clone the Repository
-Generated bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+  <h3>3. Run the Application</h3>
+  <h4>For Android 🤖</h4>
+  <p>This command will build the Android application and install it on your connected emulator or physical device.</p>
+  <p><strong>Important</strong>: Make sure you have an Android emulator running or a physical device connected via USB with debugging enabled.</p>
+  <pre><code>npx react-native run-android</code></pre>
 
-2. Install Dependencies
-
-This command will install all the necessary project dependencies listed in package.json.
-
-Generated bash
-npm install
-
-3. Run the Application
-For Android 🤖
-
-This command will build the Android application and install it on your connected emulator or physical device.
-
-Important: Make sure you have an Android emulator running or a physical device connected via USB with debugging enabled.
-
-Generated bash
-npx react-native run-android
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
-
-
-📁 Folder Structure
-
-Here is an overview of the project's folder structure:
-
-Generated code
-.
+  <h2>📁 Folder Structure</h2>
+  <p>Here is an overview of the project's folder structure:</p>
+  <pre><code>.
 ├── android/            # Native Android project
 ├── ios/                # Native iOS project
 ├── src/                # Main source code for the application
@@ -46,18 +41,15 @@ Generated code
 │   ├── constants/      # Global constants like colors and mock data
 │   ├── hooks/          # Custom React hooks (e.g., useTheme)
 │   ├── screens/        # Main screen components (e.g., HomeScreen)
-│── App.tsx             # The main entry point of the application  
+├── App.tsx             # The main entry point of the application  
 ├── .eslintrc.js        # ESLint configuration
 ├── .prettierrc.js      # Prettier configuration
 ├── package.json        # Project dependencies and scripts
-└── tsconfig.json       # TypeScript compiler options
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
+└── tsconfig.json       # TypeScript compiler options</code></pre>
 
-<h2>Project Screenshots:</h2> <img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824914/Screenshot_1751824312_qrycvg.png" alt="project-screenshot" width="300" height="500/"> 
-<img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824923/Screenshot_1751824315_xu77qk.png" alt="project-screenshot" width="300" height="500/">
+  <h2>📸 Project Screenshots</h2>
+  <img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824914/Screenshot_1751824312_qrycvg.png" alt="Screenshot 1" width="300" height="500">
+  <img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824923/Screenshot_1751824315_xu77qk.png" alt="Screenshot 2" width="300" height="500">
 
-
+</body>
+</html>
