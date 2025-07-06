@@ -57,6 +57,7 @@ download
 Use code with caution.
 IGNORE_WHEN_COPYING_END
 
-<h2>Project Screenshots:</h2> <img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824914/Screenshot_1751824312_qrycvg.png" alt="project-screenshot" width="300" height="500/"> <img src="[https://res.cloudinary.com/dfhcmgt4j/image/upload/v1749237412/Screenshot_1749237322_vplzde.png](https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824923/Screenshot_1751824315_xu77qk.png)" alt="project-screenshot" width="300" height="500/">
+<h2>Project Screenshots:</h2> <img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824914/Screenshot_1751824312_qrycvg.png" alt="project-screenshot" width="300" height="500/"> 
+<img src="https://res.cloudinary.com/dfhcmgt4j/image/upload/v1751824923/Screenshot_1751824315_xu77qk.png" alt="project-screenshot" width="300" height="500/">
 
 
