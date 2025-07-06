@@ -6,14 +6,16 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Installation & Setup
 
 1.  **Clone the repository:**
-    git clone (https://github.com/amananand0001/Task)
-    cd WingsFlyApp
 
-2.  **Install NPM dependencies:**  
-    npm install
+           git clone (https://github.com/amananand0001/Task)
+        cd WingsFlyApp
+
+3.  **Install NPM dependencies:**  
+
+        npm install
 
 ### Running the Application
-    For Android:
+     For Android:
      npx react-native run-android
 
 
