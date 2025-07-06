@@ -10,7 +10,7 @@
   <p>Follow these instructions to get the project up and running on your local machine.</p>
 
   <h3>1. Clone the Repository</h3>
-  <pre><code>git clone https://github.com/your-username/your-repository-name.git
+  <pre><code>git clone https://github.com/amananand0001/Task.git
 cd your-repository-name</code></pre>
 
   <h3>2. Install Dependencies</h3>
