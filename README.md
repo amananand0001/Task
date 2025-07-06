@@ -3,14 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Project Name</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 20px; }
-    h1, h2, h3 { color: #333; }
-    pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
-    code { font-family: Consolas, monospace; }
-    img { max-width: 300px; height: auto; margin: 10px 0; }
-  </style>
+
 </head>
 <body>
   <h2>🚀 Getting Started</h2>
