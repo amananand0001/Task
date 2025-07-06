@@ -1,26 +1,27 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+// src/App.tsx
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import React from 'react';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { StatusBar, useColorScheme, StyleSheet } from 'react-native';
+import HomeScreen from './src/screens/HomeScreen';
+import { SafeAreaProvider } from 'react-native-safe-area-context'; // Import this
 
-function App() {
+const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
+    // Wrap GestureHandlerRootView with SafeAreaProvider
+    <SafeAreaProvider> 
+      <GestureHandlerRootView style={styles.flexOne}>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+        <HomeScreen />
+      </GestureHandlerRootView>
+    </SafeAreaProvider>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  container: {
+  flexOne: {
     flex: 1,
   },
 });
