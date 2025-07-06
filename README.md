@@ -11,7 +11,7 @@
 
   <h3>1. Clone the Repository</h3>
   <pre><code>git clone https://github.com/amananand0001/Task.git
-cd your-repository-name</code></pre>
+cd Task</code></pre>
 
   <h3>2. Install Dependencies</h3>
   <p>This command will install all the necessary project dependencies listed in <code>package.json</code>.</p>
